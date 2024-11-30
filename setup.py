@@ -186,7 +186,8 @@ setup(
         "black==21.4b2",
         # If a new dependency is required at import time (in addition to runtime), it
         # probably needs to exist in docs/requirements.txt, or as a mock in docs/conf.py
-    ],
+        "torch>=2.3.0",
+        ],
     extras_require={
         # optional dependencies, required by some features
         "all": [
